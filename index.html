@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python CheatSheet</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="prism.css" />
+    <script src="prism.js"></script>
+    </head>
+    <body>
+    <nav>
+        <span class="logo"><img src="logo.png" alt="" /></span>
+        <div class="content center">
+        <h2>Python CheatSheet</h2>
+        </div>
+    </nav>
+    <div class="container">
+        <ol>
+        <li>Print</li>
+        <pre class="language-py"><code>Print("Hello World!")</code></pre>
+        <li>For Loop</li>
+        <pre class="language-py"><code>for i in range(5):
+    print(i)</code></pre>
+        <li>For Loop</li>
+        <pre class="language-py"><code>num = 1
+while num <= 5:
+    print(num)
+    num += 1</code></pre>
+        <li>If</li>
+        <pre class="language-py"><code>if number > 0:
+    print("The number is positive."))</code></pre>
+        <li>ElIf</li>
+        <pre class="language-py"><code>elif number < 0:
+    print("The number is negative.")</code></pre>
+        <li>Else</li>
+        <pre class="language-py"><code>else:
+    print("The number is zero.")</code></pre>
+        <li>Function</li>
+        <pre class="language-py"><code>def greet(name):
+    print(f"Hello, {name}!")
+            
+greet("Alice")
+greet("Bob")</code></pre>
+        <li>Output</li>
+        <pre class="language-py"><code>
+Hello, Alice!
+Hello, Bob!
+            </code></pre>
+        <li>Class</li>
+        <pre class="language-py"><code>class Rectangle:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+            
+    def calculate_area(self):
+        return self.width * self.height
+            
+rectangle = Rectangle(5, 10)
+            
+print("Width:", rectangle.width)
+print("Height:", rectangle.height)
+print("Area:", rectangle.calculate_area())
+            </code></pre>
+        <li>Output</li>
+        <pre class="language-py"><code>
+Width: 5
+Height: 10
+Area: 50
+                </code></pre>
+        </ol>
+    </div>
+    </body>
+</html>
